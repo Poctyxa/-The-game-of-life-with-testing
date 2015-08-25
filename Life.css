@@ -1,0 +1,18 @@
+/* CSS declarations go here */
+.cursor {
+  cursor: pointer;
+  width: 70px;
+  height: 30px;
+  margin: 10px 0 0 0;
+}
+.controls {
+  width: 100px;
+  float: left;
+}
+.options {
+  width: 100px;
+  float: left;
+}
+.pressForStart {
+  background-color: #eee;
+}

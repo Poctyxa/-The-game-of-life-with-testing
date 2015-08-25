@@ -1,0 +1,17 @@
+<head>
+  <title>Life</title>
+</head>
+
+<body>
+  <h1>Made with TDD</h1>
+  {{> TheGame}}
+</body>
+
+<template name="TheGame">
+  <div class="controls">
+    <h3>Controls</h3>
+    <button id="controlLink" class="cursor">Start/Stop</button>
+    <button id="clearLink" class="cursor">Clear</button>
+  </div>
+  <canvas id="grid" class='pressForStart'  width="560" height="321"></canvas>
+</template>
